@@ -18,8 +18,8 @@ Follow these steps to set up the project locally.
 
 1. Clone the Repositori
 
-git clone https://github.com/sanskritiut/agenticAI.git
-cd agenticAI
+git clone https://github.com/sanskritiut/Gemini_POC.git
+cd Gemini_POC
 
 2. Create a Virtual Environment 
 
