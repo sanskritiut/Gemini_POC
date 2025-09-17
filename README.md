@@ -1,18 +1,17 @@
-# OpenAIPOC
+# GeminiPOC
 
-OpenAI LLM Quickstart
-This is a simple Python proof-of-concept (POC) that demonstrates how to authenticate with the OpenAI API using environment variables and make synchronous calls to two different LLM models (gpt-4.1-nano and gpt-4.1-mini) within a single function.
+Gemini LLM Quickstart
+This is a simple Python proof-of-concept (POC) that demonstrates how to authenticate with the Gemini API using environment variables and make synchronous calls to a LLM model (gemini-2.0-flash)
 
 Features
-Secure API Key Loading: Loads the OPENAI_API_KEY from a .env file using the python-dotenv library.
+Secure API Key Loading: Loads the GOOGLE_API_KEY from a .env file using the python-dotenv library.
 
 Simple Function Call: Executes a synchronous API call to the OpenAI Chat Completion endpoint.
 
 Two-Model Example: Demonstrates chaining two prompts using different models for different tasks:
 
-A basic calculation (gpt-4.1-nano).
 
-An IQ question generation (gpt-4.1-mini).
+An IQ question generation (gemini-2.0-flash).
 
 Setup and Installation
 Follow these steps to set up the project locally.
@@ -32,11 +31,11 @@ Install the required Python packages:
 pip install openai python-dotenv
 
 4. Configure Environment Variables
-Create a file named .env in the root directory of your project and paste your OpenAI API key into it:
+Create a file named .env in the root directory of your project and paste your Google API key into it:
 .env
 
-# Replace YOUR_OPENAI_API_KEY_HERE with your actual key
-OPENAI_API_KEY="YOUR_OPENAI_API_KEY_HERE"
+# Replace GOOGLE_API_KEY with your actual key
+GOOGLE_API_KEY="YOUR_GOOGLE_API__KEY_HERE"
 
 ▶️ How to Run the Code
 Execute the main Python script:
